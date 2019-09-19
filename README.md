@@ -1,7 +1,7 @@
 # case-studies
 researching best practices
 
-Case 1: combinations without itertools combinations\
+Case 1: combinations without itertools combinations
 
 Question: How can we preserve order when generating combinations\
 string = 'a/b/c/d'
@@ -16,7 +16,7 @@ b/c\
 b/c/d\
 c\
 c/d\
-d\
+d
 
 
 Implementation: path-combinations.py\
