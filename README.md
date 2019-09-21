@@ -21,3 +21,9 @@ d
 
 Implementation: path-combinations.py\
 REPL: https://repl.it/@PhilipLarson/NewAfraidMarkuplanguage
+
+## Case 2: grab very specific version names.
+
+Question: how do I extract part of this string reliably?
+
+https://repl.it/@PhilipLarson/RuralCelebratedScales
