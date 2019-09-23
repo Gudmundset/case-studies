@@ -26,4 +26,10 @@ REPL: https://repl.it/@PhilipLarson/NewAfraidMarkuplanguage
 
 Question: how do I extract part of this string reliably?
 
+The version in this filename can change from numbers to strings, including a period character. The period to the right then becomes an obstacle, as well as the underscore to the left of the capture group we would like:
+
+nuke_11.3v4_93.8.xml
+
+nuke_11.3v4_test.xml
+
 https://repl.it/@PhilipLarson/RuralCelebratedScales
