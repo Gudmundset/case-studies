@@ -33,3 +33,11 @@ nuke_11.3v4_93.8.xml
 nuke_11.3v4_test.xml
 
 https://repl.it/@PhilipLarson/RuralCelebratedScales
+
+## Case 3: Grab the right email alias.
+
+Question: on an input field where someone can write anything they want, how do I grab the closest email alias from a list?
+
+This is a tough one because as a resource if someone inputs something it shouldn't do many changes if the user didn't intend the changes, you want to return exactly what they intended. When it comes time to make an email out of that for a developer, there are certain assumptions to be made so they know which email to use.
+
+https://repl.it/@PhilipLarson/UnderstatedKnowingPlane
