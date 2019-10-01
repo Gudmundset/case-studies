@@ -1,5 +1,6 @@
 import difflib
 
+#possibilities is a shortened list of a network-reachable file with a list of all possible aliases.
 possibilities = ['ab2-flux', 'ab2-texture', 'ab2-fx']
 wanted = 'Team Flux'
 
