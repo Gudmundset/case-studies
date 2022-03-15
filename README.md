@@ -54,3 +54,17 @@ In order to tabulate who was returning, I performed a regex on the contact sheet
 
 This allowed us to have one sheet of everybody's emails, names, if they had a response and what their comment was, and will continue to populate on additional survey responses, no maintenance necessary.
 
+## Case 5: unpivot / melt
+
+I like making spreadsheets for simple games we have going on. On this one game, Core Keeper, we had a team and we wanted to rank which background we started with. I spreadsheeted out the data, except I was having a hard time summarizing. I consulted my brother who is completing a Masters in Data Science. He suggested to melt the data, so it's no longer in pivot form. I google searched how to do this in google sheets, and this is the formula I ended up with:
+
+
+`={"name","background","rank";ARRAYFORMULA(
+     split(
+        flatten(
+           A3:A9&"|"&B1:H1&"|"&B3:H9
+        ),"|"
+     )
+)}`
+
+After that, I used a Filter View in Google sheets to rank them all. Perfect
